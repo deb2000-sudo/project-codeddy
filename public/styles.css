@@ -11,4 +11,12 @@ body {
 .header{
     color: rgba(255, 255, 255, 0.582);
     text-align: center;
-}  
+} 
+
+textarea#text1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: cornsilk;
+}
