@@ -1,5 +1,5 @@
 .editor {
-  margin-top: .5em;
+  /* margin-top: .5em; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -29,7 +29,8 @@
 }
 
 .CodeMirror {
-  height: 32rem;
+  height: 35rem;
+  /* margin-bottom: 0.5rem; */
   font-size: 1rem;
   overflow-y: hidden;
   font-family: "Source Code Pro";
@@ -41,6 +42,6 @@
     width: 100% !important;
   }
   .CodeMirror {
-    max-height: 37rem;
+    max-height: 30rem;
   }
 }
