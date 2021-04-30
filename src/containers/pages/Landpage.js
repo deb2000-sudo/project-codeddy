@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/Header";
 import {Link} from "react-router-dom";
+import "./Landpage.css";
 
 var Props = {
   style: React.CSSProperties,
@@ -17,21 +18,17 @@ function Landpage() {
         <div className="Landpage">
           <p className="Pagetitle">
             <br />
-            Share Code within <span className="highlight">Share your code</span>.
+            Welcome to <span className="highlight">CODEDDY</span>
             <br />
-            Anywhere, Anytime and with <span className="highlight"> With Anyone</span>
-            .
+            Edit Anywhere, Anytime ... <span className="highlight"> With Anyone</span>
           </p>
 
           <p className="sub-title">
-            A code Editor app powered By WEB-WIZ
+            A code Editor app powered By WEBWIZ
           </p>
-          <div>
-            <Link to="/Editor">
-            
-              Share YOUR Code NOW
-        
-
+          <div className="btnn">
+            <Link to="/Editor" className="btn">
+              SHARE YOUR CODE HERE!
             </Link>
           </div>
         </div>
