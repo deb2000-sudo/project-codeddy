@@ -5,8 +5,11 @@ export const initialState = {
 };
 
 const reducer = (state, action) => {
+ 
   switch (action.type) {
+  
     case "CHANGE_LANG":
+      
       return {
         ...state,
         lang: action.lang,

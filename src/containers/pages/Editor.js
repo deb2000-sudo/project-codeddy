@@ -43,7 +43,7 @@ function Editor({ code, langUsed, date = new Date().toDateString() }) {
   const [{ lang, text }, dispatch] = useStateValue();
   return (
     <div className="editor">
-      <EditorHeader defaultLang={langUsed} date={date}></EditorHeader>
+      <EditorHeader defaultLang={lang} date={date}></EditorHeader>
       <CodeMirror
         className="editor__codemirror"
         value={code}
