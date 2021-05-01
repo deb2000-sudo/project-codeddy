@@ -9,7 +9,7 @@ function EditorHeader({
     document.querySelector("select").value = defaultLang;
   })
   const [{ lang, text }, dispatch] = useStateValue();
-  // console.log(lang)
+  console.log(lang)
   const langChange = function (e) {
     
 
