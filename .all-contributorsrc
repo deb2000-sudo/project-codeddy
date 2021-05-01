@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "deb2000-sudo",
+      "name": "deb2000-sudo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59384249?v=4",
+      "profile": "https://github.com/deb2000-sudo",
+      "contributions": [
+        "infra",
+        "maintenance",
+        "projectManagement",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "project-codeddy",
+  "projectOwner": "deb2000-sudo",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
