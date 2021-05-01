@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "snehaM2210",
+      "name": "SNEHA MALLIK",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68493940?v=4",
+      "profile": "https://github.com/snehaM2210",
+      "contributions": [
+        "infra",
+        "maintenance",
+        "projectManagement",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "project-codeddy",
+  "projectOwner": "deb2000-sudo",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
